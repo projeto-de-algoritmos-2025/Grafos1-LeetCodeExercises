@@ -89,6 +89,11 @@ Se ambas funcionarem, eu terei a linha e a coluna para cada número. Aí é só 
 
 ## 🎬 Vídeo de Apresentação
 
-A explicação detalhada do raciocínio por trás de cada solução pode ser encontrada no vídeo abaixo:
+A explicação detalhada do raciocínio por trás de cada solução pode ser encontrada nos vídeos abaixo:
 
-[▶️ **Assistir à Apresentação no YouTube**]()
+[124. Binary Tree Maximum Path Sum](https://youtu.be/2YXfnUjlSPA)
+
+[773. Sliding Puzzle](https://youtu.be/jauDRaut1jY)
+
+[2392. Build a Matrix With Conditions](https://youtu.be/ewPz3X3BHoU)
+
