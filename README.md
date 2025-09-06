@@ -71,12 +71,12 @@ A solução para assim que encontra a string "123450" e retorna o número de mov
 
 A minha estratégia para resolver esse problema é simples: eu separo o problema em dois, um para as linhas e outro para as colunas.
 
-Eu vejo que as condições (''a' antes de 'b'') são um problema clássico de **Ordenação Topológica**.
+Eu vejo que as condições (`'a' antes de 'b'`) são um problema clássico de **Ordenação Topológica**.
 
-- 1- Primeiro, eu aplico a Ordenação Topológica nas 'rowConditions' para descobrir a ordem vertical correta de todos os números.
-- 2- Depois, eu faço o mesmo para as 'colConditions' para encontrar a ordem horizontal.
+- 1- Primeiro, eu aplico a Ordenação Topológica nas `rowConditions` para descobrir a ordem vertical correta de todos os números.
+- 2- Depois, eu faço o mesmo para as `colConditions` para encontrar a ordem horizontal.
 
-Se qualquer uma das ordenações falhar (por causa de um ciclo, como '1 acima de 2' e '2 acima de 1'), é impossível uma construir a matriz e retorno uma matriz vazia.
+Se qualquer uma das ordenações falhar (por causa de um ciclo, como `1 acima de 2` e `2 acima de 1`), é impossível uma construir a matriz e retorno uma matriz vazia.
 
 Se ambas funcionarem, eu terei a linha e a coluna para cada número. Aí é só criar a matriz e colocar cada número em sua coordenada (linha, coluna).
 
