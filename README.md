@@ -1,6 +1,7 @@
 # Trabalho 1: Soluções de Desafios de Grafos (LeetCode)
 
 **Disciplina**: Projeto de Algoritmos (FGA0124) 
+
 **Professor**: Maurício Serrano
 
 ## 📖 Sobre o Projeto
@@ -80,8 +81,8 @@ Se qualquer uma das ordenações falhar (por causa de um ciclo, como '1 acima de
 Se ambas funcionarem, eu terei a linha e a coluna para cada número. Aí é só criar a matriz e colocar cada número em sua coordenada (linha, coluna).
 
 **Submissão:**
-![](assets/2392GRAPH.png)
 [Submissão LeetCode 2392](https://leetcode.com/problems/build-a-matrix-with-conditions/submissions/1761939972)
+![](assets/2392GRAPH.png)
 
 ---
 
